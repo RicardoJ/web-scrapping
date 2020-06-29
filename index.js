@@ -23,5 +23,5 @@ const puppeteer = require("puppeteer");
     });
     console.log(table);
     await browser.close();
-  } catch (error) {}
+  } catch (error) {throw error}
 })();
